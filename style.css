@@ -4,7 +4,7 @@
     font-family: 'open-sans';
 }
 
-.cabecalho{
+.cabecalho {
     width: 1830px;
     margin: 0 auto;
     display: flex;
@@ -13,22 +13,22 @@
     padding: 15px 20px;
 }
 
-.logo img{
+.logo img {
     width: 50px;
     height: 50px;
-    
+
 }
 
-.menu{
+.menu {
     display: flex;
     list-style: none;
 }
 
-.menu li{
+.menu li {
     padding-left: 30px;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     padding: 20px;
     color: black;
@@ -36,7 +36,7 @@
     text-align: center;
 }
 
-.menu .insc{
+.menu .insc {
     background-color: black;
     font-weight: bold;
     padding: 15px 35px;
@@ -55,15 +55,15 @@
     margin-right: 30%;
 }
 
-.eu img{
+.eu img {
     height: 400px;
 }
 
-.lol{
+.lol {
     text-align: center;
 }
 
-.paralax h1{
+.paralax h1 {
     font-weight: 100px;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -71,17 +71,17 @@
     background-color: rgba(0, 0, 0, 0.274);
 }
 
-.para{
+.para {
     display: block;
     margin: 0 auto;
 }
 
-main{
+main {
     display: block;
     background-color: #ffff;
 }
 
-section.paralax{
+section.paralax {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,6 +94,38 @@ section.paralax{
     background-size: cover;
 }
 
-section.paralax{
+section.paralax {
     background-image: url(imagem/moto.jpg);
+}
+
+.col-esquer {
+    text-align: left;
+    width: 1280px;
+    margin: 90px auto;
+    padding: 10px;
+}
+
+.letra-esq{
+    text-align: center;
+    font-size: 20px;
+}
+
+.col-direi {
+    text-align: right;
+    width: 1280px;
+    margin: 90px auto;
+    padding: 10px;
+}
+
+.letra-dir{
+    text-align: center;
+    font-size: 20px;
+}
+
+.coluna {
+    display: flex;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
