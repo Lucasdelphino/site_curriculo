@@ -108,6 +108,7 @@ section.paralax {
 .letra-esq{
     text-align: center;
     font-size: 20px;
+    background-color: aliceblue;
 }
 
 .col-direi {
@@ -120,6 +121,7 @@ section.paralax {
 .letra-dir{
     text-align: center;
     font-size: 20px;
+    background-color: rgb(252, 219, 255);
 }
 
 .coluna {
@@ -128,4 +130,34 @@ section.paralax {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+}
+
+.qua{
+    text-align: center;
+}
+
+.tudo{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.quadrado{
+    width: 250px;
+    padding: 200px;
+    padding: 5%;
+    border: 1px solid;
+    background-color: aliceblue;
+}
+
+.quadrado img{
+    width: 50px;
+}
+
+.quadrado h1{
+    font-size: 20px;
 }
